@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="stylesheet.css">
         
+        <script src="https://kit.fontawesome.com/55e86246a1.js" crossorigin="anonymous"></script>
         <!--Tab Icon-->
         <link rel="shortcut icon" href="/images/TopHatSparrow-Logo.ico" type="image/x-icon"/>
 
@@ -25,8 +25,9 @@
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
       <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
-      <a href="#team" class="w3-bar-item w3-button w3-hide"><i class="fa fa-user"></i> TEAM</a>
-      <a href="#Careers" class="w3-bar-item w3-button"><i class="fa fa-th"></i> CAREERS</a>
+      <a href="#team"    class="w3-bar-item w3-button w3-hide"><i class="fa fa-user"></i> TEAM</a>
+      <a href="#Careers" class="w3-bar-item w3-button"><i class="fa fa-th"></i> CAREERS</a>      
+      <a href="#Support" class="w3-bar-item w3-button"><i class="fas fa-hand-holding-medical"></i> SUPPORT</a>
       <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
     </div>
     <!-- Hide right-floated links on small screens and replace them with a menu icon -->
@@ -41,8 +42,9 @@
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
   <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
-  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
-  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button w3-hide">TEAM</a>
+  <a href="#Careers" onclick="w3_close()" class="w3-bar-item w3-button">CAREERS</a>
+  <a href="#Support" onclick="w3_close()" class="w3-bar-item w3-button">SUPPORT</a>
   <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
 </nav>
 
@@ -162,7 +164,7 @@
   </div>
 </div>
 
-<!-- Work Section -->
+<!-- Careers Section -->
 <div class="w3-container" style="padding:64px 16px" id="Careers">
   <h3 class="w3-center">CAREERS</h3>
   <p class="w3-center w3-large">Where dreams become reality</p>
@@ -209,6 +211,60 @@
     <p class="w3-center w3-large"><br>We are<br>Currently not hiring</p>
 </div>
 
+    
+<!-- Support Section - "Help Support a great team" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="Support">
+  <div class="w3-row-padding">
+    <div class="w3-col m6 w3-center">
+      <h3>We need your support</h3>
+        <p style="padding:0px 20%">
+            Looking to help support our studio, this starting package will provide you with all the information you need to stay current!</p>
+        <div class="w3-half">
+            <div class="w3-center l3 m6">
+                <p><i class="fas fa-newspaper"></i> News Letter</p>
+            </div>
+        </div>
+        <div class="w3-half">
+            <div class="w3-center l3 m6">
+                <p><i class="fas fa-ticket-alt"></i> Credit Screen</p>
+            </div>
+        </div>
+        <a href="#Support" class="w3-bar-item w3-button w3-green"><i class="fab fa-paypal"></i> Tier 1 package </a>
+        
+        
+        <p style="padding:0px 20%">Love games, looking to have an impact on video games? This package gives you the opportunity to finialize design decisions.</p>
+        <div class="w3-half">
+            <div class="w3-center l3 m6">
+                <p><i class="far fa-comment-alt"></i> Developer Forums</p>
+            </div>
+        </div>
+        <div class="w3-half">
+            <div class="w3-center l3 m6">
+                <p><i class="fas fa-code"></i> Hidden Codes</p>
+            </div>
+        </div>
+        <a href="#Support" class="w3-bar-item w3-button w3-green"><i class="fab fa-paypal"></i> Tier 2 package</a>
+        
+        <p style="padding:0px 20%">Want early access, this package will provide you with an array of opporunities to play early starting in our prototype phase.</p>
+        <div class="w3-half">
+            <div class="w3-center l3 m6">
+                <p><i class="fas fa-cubes"></i> Prototype Tester</p>
+            </div>
+        </div>
+        <div class="w3-half">
+            <div class="w3-center l3 m6">
+                <p><i class="fab fa-earlybirds"></i> Early Access</p>
+            </div>
+        </div>
+        <a href="#Support" class="w3-bar-item w3-button w3-green"><i class="fab fa-paypal"></i> Tier 3 package</a>
+        
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="/images/OperationCovert-Chopper.jpg" alt="Chopper" width="700" height="394">
+    </div>
+  </div>
+</div>
+    
 <!-- Modal for full size images on click-->
 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
   <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
